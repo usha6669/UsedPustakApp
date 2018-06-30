@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tssc.usedpustak"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tssc.usedpustak.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.RegisterPage"
+            android:label="@string/title_activity_register_page" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.LoginPage"
+            android:label="@string/title_activity_login_page" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.BooksPage"
+            android:label="@string/title_activity_books_page" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.AdminLoginPage"
+            android:label="@string/title_activity_admin_login_page" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.AdminPage"
+            android:label="@string/title_activity_admin_insertion_page" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.AdminUpdatePage"
+            android:label="@string/title_activity_admin_update_page" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.BooksInList"
+            android:label="@string/title_activity_books_in_list" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.BooksDetails"
+            android:label="@string/title_activity_books_details" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.NovelsInList"
+            android:label="@string/title_activity_novels_in_list" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.NovelsDetails"
+            android:label="@string/title_activity_novels_details" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.MagazinesInList"
+            android:label="@string/title_activity_magazines_in_list" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.MagazinesDetails"
+            android:label="@string/title_activity_magazines_details" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.JournalsInList"
+            android:label="@string/title_activity_journals_in_list" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.JournalsDetails"
+            android:label="@string/title_activity_journals_details" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.ConfirmationPage"
+            android:label="@string/title_activity_confirmation_page" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.QueriesPage"
+            android:label="@string/title_activity_queries_page" >
+        </activity>
+        <activity
+            android:name="com.tssc.usedpustak.ConclusionPage"
+            android:label="@string/title_activity_conclusion_page" >
+        </activity>
+    </application>
+
+</manifest>
